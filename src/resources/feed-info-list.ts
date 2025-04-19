@@ -698,6 +698,149 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   ['HENNGE', 'https://blog.smtps.jp/feed'],
   ['ミツカリ', 'https://tech-blog.mitsucari.com/feed'],
   ['ヤポドゥ', 'https://blog.yapodu.co.jp/feed'],
+  
+  // 追加分(テックブログ)
+  ['TECHBLOG-Engineering at Recruit', 'https://engineers.recruit-jinji.jp/techblog/feed/'],
+  ['FascodeNetwork Official Blog', 'https://blog.fascode.net/feed/'],
+  ['TEGAKARI', 'https://www.tegakari.net/feed/'],
+  ['アカリク', 'https://acaric.jp/articles/feed'],
+  ['トイビト', 'https://www.toibito.com/feed'],
+  ['TechnoEdge', 'https://www.techno-edge.net/rss20/index.rdf'],
+  ['TEXAL', 'https://texal.jp/feed/'],
+
+  // 追加分(研究機関)
+  ['AIST 産業技術総合研究所', 'https://www.aist.go.jp/ctl/module/mid/27/tid/75/rss.php'],
+  ['統計数理研究所 プレスリリース', 'https://www.ism.ac.jp/ura/press/rss.rss'],
+  ['理化学研究所 プレスリリース', 'https://www.riken.jp/feed/press_feed/'],
+  ['理化学研究所 お知らせ', 'https://www.riken.jp/feed/news_feed/'],
+  ['理化学研究所 イベント', 'https://www.riken.jp/feed/events_feed/'],
+  ['理化学研究所 シンポジウム', 'https://www.riken.jp/feed/symposia_feed/'],
+  ['理化学研究所 セミナー', 'https://www.riken.jp/feed/seminars_feed/'],
+  ['理化学研究所 レクチャー', 'https://www.riken.jp/feed/lectures_feed/'],
+  ['理化学研究所 クローズアップ科学道', 'https://www.riken.jp/feed/closeup_feed/'],
+
+  ['Google Scholar', 'https://kill-the-newsletter.com/feeds/5350xkh95rhx917qsh73.xml'],
+  
+  //追加分(学会)
+  ['日本応用数理学会', 'https://jsiam.org/feed/'],
+
+  // 追加分(Podcast)
+  ['fukabori.fm', 'https://pitpa.jp/rss/fukabori'],
+  ['Rebuild', 'https://feeds.rebuild.fm/rebuildfm'],
+
+  // 追加分(Qiita)
+  ['Qiita - 人気の記事', 'https://qiita.com/popular-items/feed.atom'],
+
+  // 追加分(Zenn)
+  ['Zennのトレンド', 'https://zenn.dev/feed'],
+
+  // 追加分(Twitter)
+  ['AI-SCHOLAR', 'https://nitter.net/ai_scholar/rss'],
+  ['OpenAI', 'https://nitter.net/OpenAI/rss'],
+  ['cvpaper.challenge', 'https://nitter.net/CVpaperChalleng/rss'],
+  ['nlpaper.challenge', 'https://nitter.net/NlpaperChalleng/rss'],
+
+  // 追加分(YouTube)
+  ['予備校のノリで学ぶ「大学の数学・物理」', 'https://www.youtube.com/feeds/videos.xml?channel_id=UCqmWJJolqAgjIdLqK3zD1QQ'],
+  ['Two Minute Papers', 'https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg'],
+  ['Hitoshi Arai, 数理科学デジタルオープンレクチャーズ', 'https://www.youtube.com/feeds/videos.xml?channel_id=UC1lFftT-LKp34mNbV0pjkRw'],
+  ['AIcia Solid Project', 'https://www.youtube.com/feeds/videos.xml?channel_id=UC2lJYodMaAfFeFQrGUwhlaQ'],
+
+  // 追加分(AI全般)
+  ['The Gradient', 'https://thegradient.pub/rss/'],
+  ['Nautilus', 'http://m.nautil.us/rss/all'],
+  ['Deep Learning JP', 'https://deeplearning.jp/feed/'],
+  ['AI論文コレクション', 'https://ai-research-collection.com/feed/'],
+  ['Hacker Noon - machine-learning', 'https://cdn.hackernoon.com/tagged/machine-learning/feed'],
+  ['TECH BLOG - 株式会社AI Shift', 'https://www.ai-shift.co.jp/techblog/feed/'],
+  ['KDnuggets', 'http://feeds.feedburner.com/kdnuggets-data-mining-analytics'],
+  ['Distill', 'http://distill.pub/rss.xml'],
+  ['Facebook', 'https://research.facebook.com/feed/'],
+  ['Deep Mind', 'https://deepmind.com/blog/feed/basic/'],
+  ['The Stanford AI Lab Blog', 'http://ai.stanford.edu/blog/feed.xml'],
+  ['Amazon Science', 'https://www.amazon.science/index.rss'],
+  ['The AI Blog', 'https://blogs.microsoft.com/ai?feed=rss2'],
+  ['Google AI Blog', 'http://googleaiblog.blogspot.com/atom.xml'],
+  ['WebBigData', 'https://webbigdata.jp/feed'],
+  ['アイブン', 'https://aiboom.net/feed'],
+
+  // (はてなブログ)
+  ['kanayamaのブログ', 'https://tepppei.hatenablog.com/rss'],
+  ['u++の備忘録', 'https://upura.hatenablog.com/rss'],
+  ['渋谷駅前で働くデータサイエンティストのブログ', 'https://tjo.hatenablog.com/rss'],
+  ['Taste of Tech Topics', 'https://acro-engineer.hatenablog.com/rss'],
+
+  // (getrevue)
+  ['State of AI Report', 'https://www.getrevue.co/profile/stateofai?format=rss'],
+  ['Akira\'s Machine Learning News (ja)', 'https://www.getrevue.co/profile/akiratosei_ja?format=rss'],
+  ['piqcy', 'https://www.getrevue.co/profile/icoxfog417?format=rss'],
+  ['Weekly Kaggle News', 'http://www.getrevue.co/profile/upura?format=rss'],
+
+  // subtrack
+  ['Deep Learning Weekly', 'https://www.deeplearningweekly.com/feed/'],
+
+  // 追加分(MLOps)
+  ['MLOps - Practices', 'https://masatakashiwagi.github.io/mlops-practices/index.xml'],
+
+  // 追加分(コンピュータビジョン)
+  // (はてなブログ)
+  ['CV CG CP ML CMOS', 'https://klb.hatenablog.com/rss'],
+  ['takminの書きっぱなし備忘録 @はてなブログ', 'https://takmin.hatenablog.com/rss'],
+
+  // 追加分(数学全般)
+  ['数学の景色', 'https://mathlandscape.com/feed/'],
+  ['大学数学の授業ノート', 'https://math-notes.info/feed/'],
+  ['趣味の大学数学', 'https://math-fun.net/feed/'],
+  ['What\'s new', 'https://terrytao.wordpress.com/feed/'],
+  ['The n-Category Café', 'https://golem.ph.utexas.edu/category/atom10.xml'],
+  ['Dan Ma\'s Topology Blog', 'https://dantopology.wordpress.com/feed'],
+  ['数学カフェ', 'https://mathcafe.net/feed/'],
+  ['あーるえぬ｜数学のあれこれ', 'https://math-note.xyz/feed/'],
+
+  // (はてなブログ)
+  // 8年後の記事があったためコメントアウト
+  // ['とぽろじい　～大人の数学自由研究～', 'https://math-topology.hatenablog.com/rss'],
+  ['tsujimotterのノートブック', 'https://tsujimotter.hatenablog.com/rss'],
+  ['Jij Tech Blog', 'https://jijtech.hatenablog.com/rss'],
+  ['ちょーさんメモ出張版 気まぐれブログ', 'https://cho-san.hatenablog.jp/rss'],
+  // (LiveDoor)
+  ['龍孫江の数学日誌', 'http://blog.livedoor.jp/ron1827-algebras/atom.xml'],
+
+  // 追加分(統計学)
+  ['関西学院大学社会学部 清水裕士のWebサイト', 'https://norimune.net/feed'],
+
+  // 追加分(物理学)
+  ['Yusuke Hayashi\'s Blog', 'https://hayashiyus.jp/?feed=rss2'],
+
+  // 追加分(学術英語)
+  ['学術英語アカデミー', 'https://www.ulatus.jp/academy/feed/'],
+
+  // 追加分(ロボティクス)
+  ['東京ロボティクス開発者ブログ', 'http://blog.robotics.tokyo/feed'],
+  ['Preferred Networks Research & Development', 'https://tech.preferred.jp/ja/blog/feed/'],
+
+  // 追加分(脳科学・神経科学)
+  ['pooneilの脳科学論文コメント', 'http://pooneil.sakura.ne.jp/atom.xml'],
+  ['株式会社アラヤ', 'https://www.araya.org/feed/'],
+
+  // 追加分(新刊出版)
+  ['森北出版', 'https://note.com/morikita/rss'],
+
+  // 追加分(Windowsソフト)
+  ['新着ソフトレビュー - Vector', 'https://www.vector.co.jp/rss/softnews.xml'],
+  ['窓の杜', 'https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf'],
+  ['ソフタロウ', 'https://softaro.net/feed/'],
+  
+  // 追加分(コンシューマーゲーム)
+  ['Gaming - Polygon', 'https://www.polygon.com/rss/gaming/index.xml'],
+  ['Gaming - IGNJapan', 'https://jp.ign.com/games.xml'],
+  
+  // 追加分(ガジェット)
+  ['ギズモード・ジャパン', 'http://feeds.gizmodo.jp/rss/gizmodo/index.xml'],
+  ['デジクル', 'https://smartparty.jp/feed'],
+  
+  // 追加分（勉強会）
+  ['勉強会スライドbot', 'https://yuji.software/tech_slideshare/feed.xml'],
 ]);
 
 /**
